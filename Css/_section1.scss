@@ -1,0 +1,59 @@
+.section-Um{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    .img-1{
+        width: 600px;
+        border-radius: 20px;
+        box-shadow: 10px 5px 5px black;
+
+        &:hover{
+            opacity: 0.8;
+            cursor: pointer;
+        }
+    }
+
+    .title{
+        font-size: 20px;
+        font-weight: 800;
+        color: #8d595948;
+    }
+
+    .paragrafo{
+        font-size: 20px;
+
+    }
+
+    .div-paragrafo2{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+    }
+
+    .paragrafo2{
+        margin-left: 70px;
+        color: rgb(167, 28, 28);
+        font-weight: 800;
+        
+    }
+
+    .btn{
+        width: 180px;
+        height: 50px;
+        border-radius: 20px;
+        border: transparent;
+        color: white;
+        background-color: rgb(124, 34, 34);
+        cursor: pointer;
+        box-shadow: 10px 5px 5px black;
+
+        &:hover{
+            opacity: 0.9;
+            background-color: rgb(167, 28, 28);
+            transition: 0.3s;
+        }
+    }
+}

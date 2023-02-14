@@ -1,0 +1,21 @@
+@import './header';
+@import './section1';
+@import './products';
+@import './section2';
+@import './footer';
+@import './media';
+
+body{
+    box-sizing: border-box;
+    max-width: 1200px;
+    padding: 15px;
+    margin: 0 auto;
+    font-family: 'Bangers', cursive;
+    background-color: #141230;
+    color: #fff;
+    padding-top: 110px;
+}
+
+
+
+
